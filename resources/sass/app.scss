@@ -1,0 +1,152 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+// Typography
+
+.subtitle {
+  @extend .lead;
+  color: $gray-600;
+}
+
+p.lead {
+  font-size: 1.5rem;
+}
+
+@include media-breakpoint-only(xs) {
+  h2 { font-size: 2.5rem; }
+}
+
+.btn {
+  padding: .5rem 1.25rem;
+}
+
+
+// Homepage
+
+section.header {
+  background: $blue-dark url('/img/headerback.svg') no-repeat top center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 8rem 0;
+
+  h1 { font-weight: normal; }
+
+  .logo { margin-bottom: 2rem; }
+
+  @include media-breakpoint-only(xs) {
+
+    background-size: contain;
+    background-position: top center;
+    padding: 8rem 0 3rem 0;
+
+    h1 { font-size: 1.5rem; }
+  }
+}
+
+section.intro {
+  margin-top: 6rem;
+
+  .img-rocketkid {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  blockquote { 
+    color: $red; 
+    font-weight: 600; 
+    font-size: 3rem; 
+    font-style: italic;
+    line-height: 3rem;
+  }
+
+  @include media-breakpoint-down(sm) {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    .img-rocketkid { 
+      margin-left: -2rem; 
+      margin-top: 3rem; 
+      margin-bottom: 3rem; 
+    }
+  }
+
+}
+
+section.product {
+  margin: 4rem auto;
+
+  img {
+    margin: 3rem auto; 
+    display: block;
+  }
+}
+
+section.pilot {
+  margin-bottom: 4rem;
+}
+
+section.news {
+  margin: 4rem auto;
+
+  h2 { margin-top: 4rem; }
+  a { @extend .lead; }
+}
+
+section.team {
+
+  padding-bottom: 4rem;
+  img { margin-bottom: 4rem; }
+
+  .team-member {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h4 { font-size: 1rem; }
+    img {
+      border-radius: 50%;
+      max-width: 8rem;
+      margin: 0 auto 1rem;
+    }
+    &-function {
+      font-size: .85rem;
+      color: $gray-600;
+    }
+  }
+}
+
+
+section.newsletter {
+  .img-logocircle {
+    max-width: 12rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+  }
+}
+
+footer.footer {
+  background-color: $blue-dark;
+  padding: 3.5rem 0;
+  text-align: center;
+
+  p { 
+    font-weight: 300;
+    color: white; 
+  }
+
+  img { 
+    max-width: 10rem;
+    margin-bottom: 1rem;
+  }
+}
+
+
+
+

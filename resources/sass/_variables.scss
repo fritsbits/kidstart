@@ -1,0 +1,38 @@
+
+// Body
+$body-bg:                     #fff;
+
+// Typography
+$font-family-sans-serif:      "effra", sans-serif;
+$font-size-base:              1rem;
+$line-height-base:            1.45;
+
+$headings-font-weight:        600;
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 3 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
+
+$grid-gutter-width:           60px !default;
+
+
+// Colors
+$blue:                        #2CA9E4;
+$blue-dark:                   #212759;
+$indigo:                      #6574cd;
+$purple:                      #9561e2;
+$pink:                        #f66D9b;
+$red:                         #e3342f;
+$orange:                      #E98700;
+$yellow:                      #FFC300;
+$green:                       #38AF5B;
+$teal:                        #4dc0b5;
+$cyan:                        #6cb2eb;
+
+$gray-200:                    #DEDFE9;
+$gray-600:                    #9799AA;
+
+$body-color:                  $blue-dark;
