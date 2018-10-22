@@ -8,9 +8,11 @@
 body.page_oproep {
 
   .header {
-    border-bottom: 1px solid $gray-200;
+    background: $blue-dark;
+    color: $white;
     margin-bottom: 2rem;
     padding-bottom: 2rem;
+    padding-top: 1rem;
   }
   img.avatar { 
     border-radius: 50%; 

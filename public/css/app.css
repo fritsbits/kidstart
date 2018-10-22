@@ -10469,9 +10469,11 @@ a.text-dark:focus {
 }
 
 body.page_oproep .header {
-  border-bottom: 1px solid #DEDFE9;
+  background: #212759;
+  color: #fff;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
+  padding-top: 1rem;
 }
 
 body.page_oproep img.avatar {

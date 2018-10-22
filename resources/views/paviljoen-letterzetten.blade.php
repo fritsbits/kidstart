@@ -5,7 +5,7 @@
 @section ('content')
 
 <div class="header">
-  <div class="container mt-4">
+  <div class="container">
 
     <div class="row">
       <div class="col-lg-3 d-flex align-items-end">
@@ -64,7 +64,7 @@
 
     <div class="col-lg-4">
 
-      <div class="card bg-outline-light mb-3">
+      <div class="card bg-outline-light mb-3" style="margin-top:-4rem">
         <h4 class="card-header">Hoe werkt het?</h4>
         <div class="card-body">
           <ul>

@@ -73,10 +73,10 @@
 
             <p>Kidstart is nog in de beginfase. Momenteel doorlopen we een piloottraject met lagere school  <a href="http://paviljoen-schaarbeek.be" target="_blank">Paviljoen Schaarbeek</a> en worden we mee ondersteund door de directeur Sven Moens, die ook het <a href="http://tada.brussels" target="_blank">ToekomstAtelierDelavenir</a> ondersteunde.</p>
 
-            <h3>Geïnteresseerd als gastdocent?</h3>
-            <p>Jeukt het al om jouw passie te delen met de ketjes van Paviljoen? We horen er graag meer over, om te kijken hoe je een namiddag mee kan helpen in de klas.</p>
+            <h3>Gezocht: graffiti artiesten</h3>
+            <p>De kinderen van het eerste leerjaar leren letters schrijven. En dat doen ze graag groot op de muren van de spiksplinternieuwe school. Wie kan hen leren hoe je mooie graffiti letters spuit?</p>
 
-            <a href="https://airtable.com/shr1PN0ILwXSRx4W5" target="_blank" class="btn btn-primary">Deel je passie</a>
+            <a href="/paviljoen-schaarbeek/letterzetten/" class="btn btn-primary">Oproep graffiti artiest</a>
 
         </div>
 
