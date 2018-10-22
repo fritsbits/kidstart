@@ -1,13 +1,39 @@
 
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+body.page_oproep {
+
+  .header {
+    border-bottom: 1px solid $gray-200;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+  img.avatar { 
+    border-radius: 50%; 
+    width: 96px; 
+  }
+
+  .description {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+    color: $gray-600;
+  }
+
+  .card ul {
+    padding-left: 1rem;
+    margin-bottom: 0;
+    li { 
+      margin-bottom: .5rem; 
+      &:last-child { 
+        margin-bottom: 0;
+      }
+    }
+  }
+} 
 
 // Typography
 
