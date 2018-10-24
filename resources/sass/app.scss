@@ -8,21 +8,76 @@
 body.page_oproep {
 
   .header {
-    background: $blue-dark;
+    background: $blue-dark url("/img/rocketkid_blue.jpg") no-repeat center right;
+    background-size: contain;
     color: $white;
     margin-bottom: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     padding-top: 1rem;
+
+    h2 {
+      color: $yellow;
+      font-size: 1.5rem;
+    }
   }
-  img.avatar { 
-    border-radius: 50%; 
-    width: 96px; 
+  .avatarholder {
+    position: relative;
+    margin-left: -.75rem;
+    display: inline-flex;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    img.avatar { 
+      border-radius: 50%; 
+      width: 7rem; 
+      height: 7rem; 
+    }
+
+    a {
+      position: absolute;
+      display: flex;
+      bottom: .15rem;
+      right: .5rem;
+      width: 1.75rem;
+      height: 1.75rem;
+      border-radius: 50%;
+      background: $blue;
+      padding: .25rem;
+      align-self: center;
+      align-items: center;
+      text-align: center;
+
+      &:hover {
+        color: $green;
+      }
+
+      i {
+        color: $white;
+        margin: auto;
+      }
+    }
+
+  }
+
+  .teachers {
+    margin-top: -3rem;
+    margin-bottom: 2.5rem;
+
+    .media-body {
+      margin-top: 2.5rem;
+    }
   }
 
   .description {
     font-size: 1.25rem;
     margin-bottom: 2.5rem;
     color: $gray-600;
+  }
+
+  .embed-responsive {
+    border-radius: .5rem;
   }
 
   .card ul {

@@ -8,35 +8,53 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-lg-3 d-flex align-items-end">
+
+      <div class="col-lg-8 d-flex align-items-end">
+
         <div>
-          <img src="/img/tmp/profile-rens.jpg" alt="Rens Gijs" class="avatar mb-3"><br>
-          <p class="mb-0">door <strong>Rens Gijsen</strong> <br>
-            <span class="text-muted">Leerkracht eerste leerjaar <br>   
-            Paviljoen Schaarbeek</span></p>
-          </div>
-        </div>
-        <div class="col-lg-8 d-flex align-items-end">
+          <h2 class="mt-3">Gezocht</h2>
+          <h1>Graffiti artiesten die hun passie willen delen met de kinderen van het eerste leerjaar</h1>
 
-          <div>
-            <h2 class="text-muted h4 mt-3">Gezocht</h2>
-            <h1>Graffiti artiesten die hun passie willen delen met de kinderen van het eerste leerjaar</h1>
-
-            <div class="text-muted mt-4"> 
-              <i class="fas fa-calendar mr-1"></i> 8 of 15 November
-              <i class="fas fa-map-marker-alt ml-3"></i> Schaarbeek
-            </div>
+          <div class="lead text-muted mt-4"> 
+            <i class="fas fa-calendar mr-2 text-danger"></i> 8 of 15 November
+            <i class="fas fa-map-marker-alt mr-2 ml-3 text-danger"></i> Basisschool Paviljoen in Schaarbeek
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 </div>    
 
 <div class="container">
 
   <div class="row">
-    <div class="col-lg-8">
+    <div class="col-lg-7 col-xl-8">
+
+      <div class="teachers">
+        <div class="media">
+
+          <div class="mr-4">
+            <div class="avatarholder">
+              <img src="/img/tmp/profile-nymfe.jpg" alt="Nymfe Berbé" class="avatar">
+              <a href="https://www.facebook.com/rens.gijsen" target="_blank"><i class="fab fa-facebook-f mr-2"></i></a>
+            </div>
+            <div class="avatarholder">
+             <img src="/img/tmp/profile-rens.jpg" alt="Rens Gijs" class="avatar">
+             <a href="https://www.facebook.com/rens.gijsen" target="_blank"><i class="fab fa-facebook-f mr-2"></i></a>
+           </div>
+         </div>
+
+         <div class="media-body d-flex align-items-center">
+           <p class="mb-0">door <strong>Nymfe Berbé</strong> en <strong>Rens Gijsen</strong><br>
+            <span class="text-muted">Leerkrachten eerste leerjaar</span></p>
+          </div>
+        </div>
+
+      </div>
+
+      <h2 class="h3">Geef jouw graffiti passie door aan onze ketjes</h2>
+
       <div class="description">
 
         <p>De kinderen van het eerste leerjaar leren letters lezen en schrijven. En ze zien dat groots. Ze willen hun nieuwe vaardigheden graag toepassen op de muren van onze spiksplinternieuwe school. Daar hebben ze hulp voor nodig van een expert. Want hoe doe je dat, graffiti spuiten? Wie kan hen helpen om grote letters op de muur te zetten?</p>
@@ -62,18 +80,18 @@
 
     </div>
 
-    <div class="col-lg-4">
+    <div class="col-lg-5 col-xl-4">
 
-      <div class="card bg-outline-light mb-3" style="margin-top:-4rem">
+      <div class="card bg-outline-light mb-3">
         <h4 class="card-header">Hoe werkt het?</h4>
         <div class="card-body">
           <ul>
             <li>Vrijwillige gastles in het eerste leerjaar.</li>
             <li>Tijdens lesuren van 13:40 tot 15:20.</li>
             <li>Telkens groepjes van twee tot drie kinderen.</li>
-            <li>Vier opeenvolgende lessen van twintig minuten.</li>
+            <li>Eén van ons begeleidt je. We've got your back.</li>
+            <li>We praten alles op voorhand door via Skype.</li>
             <li>De school betaalt jouw materiaal.</li>
-            <li>Op voorhand alles doorpraten met de leerkracht.</li>
           </ul>
         </div>
       </div>   
@@ -81,16 +99,24 @@
       <div class="card bg-outline-light mb-3">
         <h4 class="card-header">Over Basisschool Paviljoen</h4>
         <div class="card-body">
-          <p>François-Joseph Navezstraat 59 
-            <small><a href="https://www.google.com/maps?ll=50.87151,4.372779&z=14&t=m&hl=en-US&gl=BE&mapclient=embed&cid=17929636717930886309" target="_blank">Kaart</a></small>
-            <br>
-          1030 Schaarbeek</p>
+          <div class="media">
+            <i class="fas fa-map-marker-alt text-muted mr-2" style="width:1.25rem;"></i>
+            <div class="media-body">
+              François-Joseph Navezstraat 59 <br>
+              1030 Schaarbeek
+              <br>
+              <small><a href="https://www.google.com/maps?ll=50.87151,4.372779&z=14&t=m&hl=en-US&gl=BE&mapclient=embed&cid=17929636717930886309" target="_blank">Kaart</a></small>
 
-          <p class="mb-0"><i class="fas fa-globe text-muted mr-1"></i> <a href="https://www.paviljoen-schaarbeek.be">Website</a></p>
+            </div>
+          </div>
+
+          <p><i class="fas fa-phone text-muted mr-1" style="width:1.25rem;"></i> 02 431 68 11</p>
+
+          <p class="mb-0"><i class="fas fa-globe text-muted mr-1" style="width:1.25rem;"></i> <a href="https://www.paviljoen-schaarbeek.be">Website</a></p>
         </div>
       </div>    
 
-      
+
     </div>
   </div>
 

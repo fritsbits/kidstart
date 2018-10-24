@@ -10469,22 +10469,83 @@ a.text-dark:focus {
 }
 
 body.page_oproep .header {
-  background: #212759;
+  background: #212759 url("/img/rocketkid_blue.jpg") no-repeat center right;
+  background-size: contain;
   color: #fff;
   margin-bottom: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
   padding-top: 1rem;
 }
 
-body.page_oproep img.avatar {
+body.page_oproep .header h2 {
+  color: #FFC300;
+  font-size: 1.5rem;
+}
+
+body.page_oproep .avatarholder {
+  position: relative;
+  margin-left: -.75rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+body.page_oproep .avatarholder:first-child {
+  margin-left: 0;
+}
+
+body.page_oproep .avatarholder img.avatar {
   border-radius: 50%;
-  width: 96px;
+  width: 7rem;
+  height: 7rem;
+}
+
+body.page_oproep .avatarholder a {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  bottom: .15rem;
+  right: .5rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background: #2CA9E4;
+  padding: .25rem;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+body.page_oproep .avatarholder a:hover {
+  color: #38AF5B;
+}
+
+body.page_oproep .avatarholder a i {
+  color: #fff;
+  margin: auto;
+}
+
+body.page_oproep .teachers {
+  margin-top: -3rem;
+  margin-bottom: 2.5rem;
+}
+
+body.page_oproep .teachers .media-body {
+  margin-top: 2.5rem;
 }
 
 body.page_oproep .description {
   font-size: 1.25rem;
   margin-bottom: 2.5rem;
   color: #9799AA;
+}
+
+body.page_oproep .embed-responsive {
+  border-radius: .5rem;
 }
 
 body.page_oproep .card ul {
