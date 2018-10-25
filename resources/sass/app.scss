@@ -15,11 +15,52 @@ body.page_oproep {
     padding-bottom: 4rem;
     padding-top: 1rem;
 
+    h1, .lead {
+      text-shadow: $blue-dark 1px 1px 2px;
+    }
+
     h2 {
       color: $yellow;
       font-size: 1.5rem;
     }
+
+    .meta {
+      display: inline-block;
+      margin-right: 2rem;
+      margin-bottom: .25rem;
+
+      i {
+        color: $green;
+        margin-right: .5rem;
+      }
+    }
+
+    @include media-breakpoint-down(md) {
+      .meta { display: block; }
+    }
+
+    @include media-breakpoint-down(sm) {
+      background-image: none;
+    }
+
   }
+
+  .avatars {
+    margin-right: 1.5rem;
+  }
+
+  @include media-breakpoint-down(sm) {
+
+    .media {
+      display: block;
+    }
+
+    .media-body {
+      margin-top: 1.5rem;
+    }
+
+  }
+
   .avatarholder {
     position: relative;
     margin-left: -.75rem;
@@ -50,7 +91,7 @@ body.page_oproep {
       text-align: center;
 
       &:hover {
-        color: $green;
+        background-color: $green;
       }
 
       i {
@@ -71,7 +112,8 @@ body.page_oproep {
   }
 
   .description {
-    font-size: 1.25rem;
+    font-weight: 300;
+    font-size: 1.5rem;
     margin-bottom: 2.5rem;
     color: $gray-600;
   }
@@ -89,6 +131,37 @@ body.page_oproep {
         margin-bottom: 0;
       }
     }
+  }
+
+  .fixed-bottom {
+    padding: .5rem 0;
+    background: $blue-dark; 
+    color: white;
+    border-top: 1px solid darken($blue-dark, 8%);
+
+    h3 {
+      color: $white;
+    }
+
+    h3, p {
+      display: inline-block;
+    }
+
+    @include media-breakpoint-down(sm) {
+      .cta { display: none; }
+
+      .btn { display: block; margin: 0 auto; width: 100%; }
+
+      .btnholder { margin: 0 auto; width: 100%; }
+    }
+
+    @include media-breakpoint-only(md) {
+      p { display: none; }
+    }
+  }
+
+  footer.footer {
+    padding-bottom: 5.5rem;
   }
 } 
 
@@ -228,6 +301,9 @@ footer.footer {
     max-width: 10rem;
     margin-bottom: 1rem;
   }
+
+
+
 }
 
 
