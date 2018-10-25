@@ -120,7 +120,7 @@
       <div class="col-lg-6 description">
         <p class="mt-5 mb-5">Binnenkort gaan de kinderen graag aan de slag met een échte spuitbus met verf. En daar kunnen ze een helpende hand bij gebruiken. Help jij hen om hun eerste graffiti stappen te zetten?</p>
 
-        <p><a class="btn btn-primary btn-lg" data-toggle="collapse" href="#signupform" role="button" aria-expanded="false" aria-controls="signupform">Contacteer ons voor meer info</a></p>
+        <p><a class="btn btn-primary" href="https://airtable.com/shrPN7kyAUOwN6znk" target="_blank">Contacteer ons voor meer info</a></p>
 
       </div>
       <div class="col-lg-6">
@@ -151,7 +151,7 @@
         <p class="text-muted">Geef je op als gastdocent op 8 of 15 November</p>
       </div>
       <div class="btnholder">
-        <a class="btn btn-primary" data-toggle="collapse" href="#signupform" role="button" aria-expanded="false" aria-controls="signupform"><i class="fas fa-envelope mr-2"></i> Contacteer ons</a>
+        <a class="btn btn-primary" href="https://airtable.com/shrPN7kyAUOwN6znk" target="_blank"><i class="fas fa-envelope mr-2"></i> Contacteer ons</a>
       </div>
     </div>
   </div>
