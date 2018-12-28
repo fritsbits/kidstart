@@ -10798,3 +10798,7 @@ footer.footer img {
   margin-bottom: 1rem;
 }
 
+.embed-responsive {
+  border-radius: .5rem;
+}
+
