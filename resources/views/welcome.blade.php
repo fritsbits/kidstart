@@ -113,7 +113,7 @@
 
        <div class="col-sm-4 col-md-3 col-lg-3 col-xl-3">
 
-        <img src="{{ $enclosure->get_thumbnail() }}" class="rounded img-fluid mb-2 mt-3" />
+        <a href="{{ $youtubePost->get_permalink() }}"><img src="{{ $enclosure->get_thumbnail() }}" class="rounded img-fluid mb-2 mt-3" /></a>
 
         <p><a href="{{ $youtubePost->get_permalink() }}">{{ $youtubePost->get_title() }}</a>
             <br>
