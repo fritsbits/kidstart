@@ -159,6 +159,8 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        willvincent\Feeds\FeedsServiceProvider::class,
+
 
 
         /*
@@ -227,6 +229,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'MetaTag'   => Torann\LaravelMetaTags\Facades\MetaTag::class,
+        'Feeds'    => willvincent\Feeds\Facades\FeedsFacade::class,
 
     ],
 

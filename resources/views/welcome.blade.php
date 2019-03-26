@@ -77,21 +77,25 @@
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z1Ud2H-8-6w?rel=0" allowfullscreen=""></iframe>
             </div>
 
-            <h3>Gastles graffiti</h3>
-
-            <p>De kinderen van het eerste leerjaar leren letters schrijven. En dat doen ze graag groot op de muren van de spiksplinternieuwe school. <a href="/paviljoen-schaarbeek/letterzetten/">We nodigden graffiti artiesten uit</a> om de leerlingen onder te dompelen in de wereld van graffiti letters.</p>
-
-            <p>Twee artiesten kwamen langs op een donderdag in Oktober om hun passie te delen. Hoe leuk was dat. Een onvergetelijk moment voor de leerlingen, voor altijd vastgelegd in een graffiti kunstwerk in de school.</p>
-
-            <div class="embed-responsive embed-responsive-16by9 mt-4 mb-5">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uBxeyq14uMk?rel=0" allowfullscreen=""></iframe>
-            </div>
-
-
         </div>
 
         <div class="col-md-5 col-lg-6 pr-0 text-right d-none d-sm-none d-md-block d-lg-block d-xl-block">
             <img src="/img/homepage/paviljoenbollen.jpg" class="img-fluid" alt="">
+        </div>
+    </div>
+
+
+    <div class="row mt-5">
+        <div class="col-md-6 col-lg-5 offset-lg-1">
+            <h3>Eerste gastles: graffiti</h3>
+
+            <p>De kinderen van het eerste leerjaar leren letters schrijven. En dat doen ze graag groot op de muren van de spiksplinternieuwe school. <a href="/paviljoen-schaarbeek/letterzetten/">We nodigden graffiti artiesten uit</a> om de leerlingen onder te dompelen in de wereld van graffiti letters.</p>
+
+            <p>Twee artiesten kwamen langs op een donderdag in Oktober om hun passie te delen. Hoe leuk was dat. Een onvergetelijk moment voor de leerlingen, voor altijd vastgelegd in een graffiti kunstwerk in de school.</p>
+        </div>
+        <div class="col-md-6">
+           <div class="embed-responsive embed-responsive-16by9 mt-4 mb-5">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uBxeyq14uMk?rel=0" allowfullscreen=""></iframe>
         </div>
     </div>
 
@@ -107,9 +111,14 @@
         <div class="col-md-6">
 
             <h2>Updates</h2>
-            <p><a href="https://medium.com/kidstart/kidstart-en-basisschool-paviljoen-schaarbeek-samen-uit-de-startblokken-1f8e5dedbe20" target="_blank">Kidstart en Basisschool Paviljoen Schaarbeek samen uit de startblokken</a></p>
 
-            <h3 class="mt-5" id="nieuwsbrief">Blijf op de hoogte</h3>
+            @foreach($mediumFeed as $mediumPost)
+
+            <p><span class="badge badge-danger text-white mr-2">{{ $mediumPost->get_date('m/Y') }}</span><a href="{{ $mediumPost->get_permalink() }}">{{ $mediumPost->get_title() }}</a></p>
+
+            @endforeach
+
+            <h2 class="mt-5 pt-5" id="nieuwsbrief">Blijf op de hoogte</h2>
             <p class="text-muted">Weet als eerste wanneer materiaal beschikbaar is voor jouw school</p>
 
             @include('partials/_mailchimp')
@@ -167,12 +176,12 @@
             <img src="/img/homepage/logocircle.png" alt="" class="img-fluid img-logocircle">
         </div>
         <div class="col-md-6">
-         <h2>Blijf op de hoogte</h2>
-         <p class="subtitle">Weet als eerste wanneer we in nieuwe scholen lanceren</p>
+           <h2>Blijf op de hoogte</h2>
+           <p class="subtitle">Weet als eerste wanneer we in nieuwe scholen lanceren</p>
 
-     </div>
+       </div>
 
- </div>
+   </div>
 
 </section>
 
