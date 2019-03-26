@@ -94,10 +94,40 @@
             <p>Twee artiesten kwamen langs op een donderdag in Oktober om hun passie te delen. Hoe leuk was dat. Een onvergetelijk moment voor de leerlingen, voor altijd vastgelegd in een graffiti kunstwerk in de school.</p>
         </div>
         <div class="col-md-6">
-           <div class="embed-responsive embed-responsive-16by9 mt-4 mb-5">
+         <div class="embed-responsive embed-responsive-16by9 mt-4 mb-5">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uBxeyq14uMk?rel=0" allowfullscreen=""></iframe>
         </div>
     </div>
+
+</section>
+
+
+<section class="videos container pb-5">
+
+   <h2>Paviljoen traject in beeld</h2>
+
+   <div class="row">
+       @foreach($youtubeFeed as $youtubePost)
+
+       @if ($enclosure = $youtubePost->get_enclosure())
+
+       <div class="col-sm-4 col-md-3 col-lg-3 col-xl-3">
+
+        <img src="{{ $enclosure->get_thumbnail() }}" class="rounded img-fluid mb-2 mt-3" />
+
+        <p><a href="{{ $youtubePost->get_permalink() }}">{{ $youtubePost->get_title() }}</a>
+            <br>
+            <span class="small text-muted">{{ $youtubePost->get_date('m/Y') }}</span></p>
+
+    </div>
+
+
+    @endif
+
+
+    @endforeach
+
+</div>
 
 </section>
 
@@ -114,7 +144,7 @@
 
             @foreach($mediumFeed as $mediumPost)
 
-            <p><span class="badge badge-danger text-white mr-2">{{ $mediumPost->get_date('m/Y') }}</span><a href="{{ $mediumPost->get_permalink() }}">{{ $mediumPost->get_title() }}</a></p>
+            <p><span class="small text-muted mr-2">{{ $mediumPost->get_date('m/Y') }}</span><a href="{{ $mediumPost->get_permalink() }}">{{ $mediumPost->get_title() }}</a></p>
 
             @endforeach
 
@@ -176,12 +206,12 @@
             <img src="/img/homepage/logocircle.png" alt="" class="img-fluid img-logocircle">
         </div>
         <div class="col-md-6">
-           <h2>Blijf op de hoogte</h2>
-           <p class="subtitle">Weet als eerste wanneer we in nieuwe scholen lanceren</p>
+         <h2>Blijf op de hoogte</h2>
+         <p class="subtitle">Weet als eerste wanneer we in nieuwe scholen lanceren</p>
 
-       </div>
+     </div>
 
-   </div>
+ </div>
 
 </section>
 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use MetaTag;
 use Feeds;
+use Carbon\Carbon;
 
 class HomeController extends Controller 
 {
@@ -11,7 +12,7 @@ class HomeController extends Controller
   {
     MetaTag::set('description', 'Kidstart helpt scholen om inspirende mensen in de klas te krijgen. Via de website matchen we scholen met gepassioneerde vrijwilligers uit de buurt.');
 
-    $youtubeFeed = Feeds::make('https://www.youtube.com/feeds/videos.xml?channel_id=UCUg7h-cZEx6I-UZOAWFIlsQ')->get_items();
+    $youtubeFeed = Feeds::make('https://www.youtube.com/feeds/videos.xml?channel_id=UCUg7h-cZEx6I-UZOAWFIlsQ', true)->get_items();
 
     $mediumFeed = Feeds::make('https://medium.com/feed/kidstart')->get_items();
     
