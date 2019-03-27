@@ -7,6 +7,10 @@
   <h1>Breng specialisten in de klas</h1>
 </section>
 
+<section class="subheader">
+    
+</section>
+
 
 <section class="intro container-fluid">
 
@@ -68,7 +72,7 @@
 
     <div class="row">
         <div class="col-md-7 col-lg-5 offset-lg-1">
-            <h2>Piloot project in Schaarbeek</h2>
+            <h2>Pilootproject in Schaarbeek</h2>
             <p class="subtitle">Stap voor stap richting een open school</p>
 
             <p>Kidstart is nog in de beginfase. Momenteel doorlopen we een piloottraject met lagere school  <a href="http://paviljoen-schaarbeek.be" target="_blank">Paviljoen Schaarbeek</a> en worden we mee ondersteund door de directeur Sven Moens, die ook het <a href="http://tada.brussels" target="_blank">ToekomstAtelierDelavenir</a> ondersteunde.</p>
@@ -94,7 +98,7 @@
             <p>Twee artiesten kwamen langs op een donderdag in Oktober om hun passie te delen. Hoe leuk was dat. Een onvergetelijk moment voor de leerlingen, voor altijd vastgelegd in een graffiti kunstwerk in de school.</p>
         </div>
         <div class="col-md-6">
-         <div class="embed-responsive embed-responsive-16by9 mt-4 mb-5">
+           <div class="embed-responsive embed-responsive-16by9 mt-4 mb-5">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uBxeyq14uMk?rel=0" allowfullscreen=""></iframe>
         </div>
     </div>
@@ -104,20 +108,20 @@
 
 <section class="videos container pb-5">
 
-   <h2>Paviljoen traject in beeld</h2>
+ <h2>Paviljoen traject in beeld</h2>
 
-   <div class="row">
-       @foreach($youtubeFeed as $youtubePost)
+ <div class="row">
+     @foreach($youtubeFeed as $youtubePost)
 
-       @if ($enclosure = $youtubePost->get_enclosure())
+     @if ($enclosure = $youtubePost->get_enclosure())
 
-       <div class="col-sm-4 col-md-3 col-lg-3 col-xl-3">
+     <div class="col-sm-4 col-md-3 col-lg-3 col-xl-3 video">
 
-        <a href="{{ $youtubePost->get_permalink() }}"><img src="{{ $enclosure->get_thumbnail() }}" class="rounded img-fluid mb-2 mt-3" /></a>
+        <a href="{{ $youtubePost->get_permalink() }}"> <div class="thumbnail" style="background-image: url({{ $enclosure->get_thumbnail() }})"> </div></a>
 
-        <p><a href="{{ $youtubePost->get_permalink() }}">{{ $youtubePost->get_title() }}</a>
-            <br>
-            <span class="small text-muted">{{ $youtubePost->get_date('m/Y') }}</span></p>
+        <p class="mb-1"><a href="{{ $youtubePost->get_permalink() }}">{{ $youtubePost->get_title() }}</a></p>
+
+        <div class="small text-muted pb-5">{{ $youtubePost->get_date('m/Y') }}</div>
 
     </div>
 
@@ -206,12 +210,12 @@
             <img src="/img/homepage/logocircle.png" alt="" class="img-fluid img-logocircle">
         </div>
         <div class="col-md-6">
-         <h2>Blijf op de hoogte</h2>
-         <p class="subtitle">Weet als eerste wanneer we in nieuwe scholen lanceren</p>
+           <h2>Blijf op de hoogte</h2>
+           <p class="subtitle">Weet als eerste wanneer we in nieuwe scholen lanceren</p>
 
-     </div>
+       </div>
 
- </div>
+   </div>
 
 </section>
 

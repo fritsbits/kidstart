@@ -10468,6 +10468,53 @@ a.text-dark:focus {
   }
 }
 
+section.subheader {
+  background-image: url("/img/homepage/header_class.png");
+  background-size: cover;
+  background-color: #D8E0F1;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 20rem;
+}
+
+section.videos .video {
+  margin: 1rem 0;
+}
+
+section.videos .video .thumbnail {
+  width: 100%;
+  height: 15rem;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  border-radius: .5rem;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  section.videos .video .thumbnail {
+    height: 4.2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section.videos .video .thumbnail {
+    height: 30%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  section.videos .video .thumbnail {
+    height: 6.3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  section.videos .video .thumbnail {
+    height: 7.5rem;
+  }
+}
+
 body.page_oproep .header {
   background: #212759 url("/img/rocketkid_blue.jpg") no-repeat center right;
   background-size: contain;
