@@ -10477,6 +10477,24 @@ section.subheader {
   height: 20rem;
 }
 
+@media (max-width: 575.98px) {
+  section.subheader {
+    height: 11rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  section.subheader {
+    height: 15rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  section.subheader {
+    height: 25rem;
+  }
+}
+
 section.videos .video {
   margin: 1rem 0;
 }

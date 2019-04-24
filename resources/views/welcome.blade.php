@@ -173,7 +173,7 @@
         <div class="row">
             <div class="col-md-8 col-lg-4">
                 <h2>Team Kidstart</h2>
-                <p class="mb-5">Kidstart ontstond op <a href="http://www.hackbelgium.be" target="_blank">Hack Belgium</a>, de grootste hackathon van België, waar ons project laureaat was. Oprichters Ilse en Pieter-Jan bedachtten er het project. Frederik kwam er bij nadat hij <a href="https://www.youtube.com/watch?v=4Ql0QwyUx5g&feature=youtu.be&t=25" target="_blank">hun pitch</a> zag op Hack Belgium.</p>
+                <p class="mb-5">Kidstart ontstond op <a href="http://www.hackbelgium.be" target="_blank">Hack Belgium</a>, de grootste hackathon van België, waar ons project laureaat was. Oprichters Ilse en Pieter-Jan bedachten er het project. Frederik kwam erbij nadat hij <a href="https://www.youtube.com/watch?v=4Ql0QwyUx5g&feature=youtu.be&t=25" target="_blank">hun pitch</a> zag op Hack Belgium.</p>
             </div>
 
             <div class="col-lg-8">
