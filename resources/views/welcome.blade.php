@@ -156,7 +156,7 @@
             
         </div>
         <div class="col-md-6">
-         <div class="embed-responsive embed-responsive-16by9 mt-4 mb-5">
+           <div class="embed-responsive embed-responsive-16by9 mt-4 mb-5">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uBxeyq14uMk?rel=0" allowfullscreen=""></iframe>
         </div>
     </div>
@@ -167,14 +167,14 @@
 
 <section class="videos container pb-5">
 
-   <h2 class="text-center">Paviljoen traject in beeld</h2>
+ <h2 class="text-center">Paviljoen traject in beeld</h2>
 
-   <div class="row">
-       @foreach($youtubeFeed as $youtubePost)
+ <div class="row">
+     @foreach($youtubeFeed as $youtubePost)
 
-       @if ($enclosure = $youtubePost->get_enclosure())
+     @if ($enclosure = $youtubePost->get_enclosure())
 
-       <div class="col-sm-4 col-md-3 col-lg-3 col-xl-3 video">
+     <div class="col-sm-4 col-md-3 col-lg-3 col-xl-3 video">
 
         <a href="{{ $youtubePost->get_permalink() }}"> <div class="thumbnail" style="background-image: url({{ $enclosure->get_thumbnail() }})"> </div></a>
 
@@ -229,32 +229,55 @@
     
     <div class="container">
 
-        <div class="row">
-            <div class="col-md-8 col-lg-4">
-                <h2>Team Kidstart</h2>
-                <p class="mb-5">Kidstart ontstond op <a href="http://www.hackbelgium.be" target="_blank">Hack Belgium</a>, de grootste hackathon van België, waar ons project laureaat was. Oprichters Ilse en Pieter-Jan bedachten er het project. Frederik kwam erbij nadat hij <a href="https://www.youtube.com/watch?v=4Ql0QwyUx5g&feature=youtu.be&t=25" target="_blank">hun pitch</a> zag op Hack Belgium.</p>
+        <h2>Team Kidstart</h2>
 
-                <h4>Contact</h4>
-                <p><a href="mailto:frederik@kidstart.be">frederik@kidstart.be</a></p>
+        <div class="row">
+            <div class="col-md-8 col-lg-7">
+
+                <p>Kidstart ontstond op <a href="http://www.hackbelgium.be" target="_blank">Hack Belgium</a>, de grootste hackathon van België, waar ons project laureaat was. Oprichters Ilse en Pieter-Jan bedachten er het project. Frederik kwam erbij nadat hij <a href="https://www.youtube.com/watch?v=4Ql0QwyUx5g&feature=youtu.be&t=25" target="_blank">hun pitch</a> zag op Hack Belgium.</p>
+
+                <p class="mb-5">Contact: <a href="mailto:frederik@kidstart.be">frederik@kidstart.be</a></p>
+
             </div>
 
-            <div class="col-lg-8">
-                <div class="row">
-                    <div class="col-md-4 team-member">
-                        <img src="/img/homepage/profile-pieterjan.jpg" alt="Pieter-Jan Herman" class="img-fluid">
-                        <h4><a href="https://www.linkedin.com/in/pieterjanherman/" target="_blank">Pieter-Jan Herman</a></h4>
-                        <p class="team-member-function">Leerkracht middelbaar onderwijs</p>
-                    </div>
-                    <div class="col-md-4 team-member">
-                        <img src="/img/homepage/profile-ilse.jpg" alt="Ilse Taildeman" class="img-fluid">
-                        <h4><a href="https://www.linkedin.com/in/ilse-taildeman-5b990448/" target="_blank">Ilse Taildeman</a></h4>
-                        <p class="team-member-function">Projectmanager duurzame ontwikkeling</p>
-                    </div>
-                    <div class="col-md-4 team-member">
-                        <img src="/img/homepage/profile-frederik.jpg" alt="Pieter-Jan Herman" class="img-fluid">
-                        <h4><a href="https://www.linkedin.com/in/frederikvincx/" target="_blank">Frederik Vincx</a></h4>
-                        <p class="team-member-function">Social service designer</p>
-                    </div>
+            <div class="col-lg-5">
+            </div>
+
+        </div>
+
+
+
+        <div class="card p-4 mb-5">
+            <h3 class="mb-4">Trajectbegeleiders</h3>
+
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 offset-lg-1 team-member">
+                    <img src="/img/homepage/profile-fien.jpg" alt="Fien Sambaer" class="img-fluid">
+                    <h4><a href="https://www.linkedin.com/in/fien-sambaer-ab567174" target="_blank">Fien Sambaer</a></h4>
+                    <p class="team-member-function">Fien heeft jaren ervaring als onderwijsondersteuner en als brede schoolcoördinator in Brussel.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 offset-lg-2 team-member">
+                    <img src="/img/homepage/profile-frederik.jpg" alt="Frederik Vincx" class="img-fluid">
+                    <h4><a href="https://www.linkedin.com/in/frederikvincx/" target="_blank">Frederik Vincx</a></h4>
+                    <p class="team-member-function">Frederik is een sociaal ontwerper die de voorbije jaren heel veel tijd in scholen doorbracht om de basis van Kidstart te leggen.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card p-4">    
+            <h3 class="mb-4">Bestuur</h3>
+
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 offset-lg-1 team-member">
+                    <img src="/img/homepage/profile-pieterjan.jpg" alt="Pieter-Jan Herman" class="img-fluid">
+                    <h4><a href="https://www.linkedin.com/in/pieterjanherman/" target="_blank">Pieter-Jan Herman</a></h4>
+                    <p class="team-member-function">Leerkracht middelbaar onderwijs</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 offset-lg-2 team-member">
+                    <img src="/img/homepage/profile-ilse.jpg" alt="Ilse Taildeman" class="img-fluid">
+                    <h4><a href="https://www.linkedin.com/in/ilse-taildeman-5b990448/" target="_blank">Ilse Taildeman</a></h4>
+                    <p class="team-member-function">Kabinetsmedewerker participatie</p>
                 </div>
             </div>
         </div>
@@ -272,12 +295,12 @@
             <img src="/img/homepage/logocircle.png" alt="" class="img-fluid img-logocircle">
         </div>
         <div class="col-md-6">
-         <h2>Blijf op de hoogte</h2>
-         <p class="subtitle">Weet als eerste wanneer we in nieuwe scholen lanceren</p>
+           <h2>Blijf op de hoogte</h2>
+           <p class="subtitle">Weet als eerste wanneer we in nieuwe scholen lanceren</p>
 
-     </div>
+       </div>
 
- </div>
+   </div>
 
 </section>
 
