@@ -87,11 +87,11 @@
                 </div>
                 <div class="col-md-6 col-xl-4 mb-5">
                     <h3>Versterk band met ouders</h3>
-                    <p class="text-muted">Leerlingen hoeven geen astronaut of kernfysicus voor de klas te hebben. Inspireer hen met gewone mensen uit de buurt, die hun passies en talenten delen. Met Kidstart breng je de talenten van ouders in kaart te brengen, en krijg je tools om hen te betrekken.</p>
+                    <p class="text-muted">Leerlingen hoeven geen astronaut of kernfysicus voor de klas te hebben. Inspireer hen met gewone mensen uit de buurt, die hun passies en talenten delen. Met Kidstart breng je de talenten van ouders in kaart, en krijg je tools om hen te betrekken.</p>
                 </div>
                 <div class="col-md-6 col-xl-4 mb-5">
                     <h3>Leer de buurt kennen</h3>
-                    <p class="text-muted">Leren met de buurt is leren in de buurt. Met Kidstart bieden we je team leuke manieren om de buurt samen te ontdekken. Zo leren ze de grootstedelijke context beter kennen, en wordt het vlotter om mensen uit de buurt te betrekken.</p>
+                    <p class="text-muted">Leren met de buurt is leren in de buurt. Met Kidstart bieden we je team leuke manieren om de buurt samen te ontdekken. Zo leren je leerlingen de grootstedelijke context beter kennen, en wordt het vlotter om mensen uit de buurt te betrekken.</p>
                 </div>
                 <div class="col-md-6 col-xl-4 mb-5">
                     <h3>Verbeter teamspirit</h3>
