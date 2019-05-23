@@ -8,7 +8,7 @@
 </section>
 
 <section class="subheader">
-    
+
 </section>
 
 
@@ -66,6 +66,61 @@
 </section>
 
 
+<section class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-12 col-lg-10 offset-lg-1">
+
+            <h2 class="text-center">Kidstart in jouw school</h2>
+            <p class="lead text-muted text-center mb-5">Ontplooi de talenten van de hele buurt</p>
+
+            <div class="row">
+
+                <div class="col-md-6 col-xl-4 mb-5">
+                    <h3>Inspireer leerlingen</h3>
+                    <p class="text-muted">Onze ketjes hebben helden nodig. Inspirerende mensen uit de buurt die hen helpen dromen over hun toekomst, zodat ze vandaag en morgen hun eigen talenten kunnen ontdekken en ontwikkelen. Breng deze mensen binnen in de school.</p>
+                </div>
+
+                <div class="col-md-6 col-xl-4 mb-5">
+                    <h3>Betrek gastdocenten</h3>
+                    <p class="text-muted">Leer met je team hoe je makkelijk inspirerende mensen uit de buurt betrekt, en hoe je hen zelfverzekerd voor de klas krijgt. Met de Kidstart gastlesaanpak wordt het een reflex om breed te leren met talent uit de buurt.</p>
+                </div>
+                <div class="col-md-6 col-xl-4 mb-5">
+                    <h3>Versterk band met ouders</h3>
+                    <p class="text-muted">Leerlingen hoeven geen astronaut of kernfysicus voor de klas te hebben. Inspireer hen met gewone mensen uit de buurt, die hun passies en talenten delen. Met Kidstart breng je de talenten van ouders in kaart te brengen, en krijg je tools om hen te betrekken.</p>
+                </div>
+                <div class="col-md-6 col-xl-4 mb-5">
+                    <h3>Leer de buurt kennen</h3>
+                    <p class="text-muted">Leren met de buurt is leren in de buurt. Met Kidstart bieden we je team leuke manieren om de buurt samen te ontdekken. Zo leren ze de grootstedelijke context beter kennen, en wordt het vlotter om mensen uit de buurt te betrekken.</p>
+                </div>
+                <div class="col-md-6 col-xl-4 mb-5">
+                    <h3>Verbeter teamspirit</h3>
+                    <p class="text-muted">Kidstart is een verandertraject voor je team. In verscheidene workshops en teambuilding activiteiten bouwen we aan de competenties, attitudes en samenhang van het team. Ook na het traject blijven de skills en goesting om samen breed te leren met de buurt.</p>
+                </div>
+                <div class="col-md-6 col-xl-4 mb-5">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title mb-0">Kidstart je school</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>In schooljaar 2019-2020 begeleidt Kidstart extra Nederlandstalige lagere scholen in Brussel. Er zijn nog twee plekjes vrij.</p>
+
+                            <p class="mb-0"><a href="mailto:frederik@kidstart.be?subject=Kidstart%20begeleiding">Contacteer ons</a></p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr class="my-5 py-2">
+
+
 <img src="/img/homepage/paviljoenbollen.jpg" class="img-fluid d-md-none d-lg-none d-xl-none mb-5" alt="Paviljoen Schaarbeek">
 
 <section class="pilot container-fluid">
@@ -75,7 +130,7 @@
             <h2>Pilootproject in Schaarbeek</h2>
             <p class="subtitle">Stap voor stap richting een open school</p>
 
-            <p>Kidstart is nog in de beginfase. Momenteel doorlopen we een piloottraject met lagere school  <a href="http://paviljoen-schaarbeek.be" target="_blank">Paviljoen Schaarbeek</a> en worden we mee ondersteund door de directeur Sven Moens, die ook het <a href="http://tada.brussels" target="_blank">ToekomstAtelierDelavenir</a> ondersteunde.</p>
+            <p>Kidstart doorloopt in schooljaar 2018-2019 een piloottraject met lagere school  <a href="http://paviljoen-schaarbeek.be" target="_blank">Paviljoen Schaarbeek</a>. Daar werken we nauw samen met directeur Sven Moens, die ook het <a href="http://tada.brussels" target="_blank">ToekomstAtelierDelavenir</a> ondersteunde.</p>
 
             <div class="embed-responsive embed-responsive-16by9 mt-4 mb-5">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z1Ud2H-8-6w?rel=0" allowfullscreen=""></iframe>
@@ -96,26 +151,30 @@
             <p>De kinderen van het eerste leerjaar leren letters schrijven. En dat doen ze graag groot op de muren van de spiksplinternieuwe school. <a href="/paviljoen-schaarbeek/letterzetten/">We nodigden graffiti artiesten uit</a> om de leerlingen onder te dompelen in de wereld van graffiti letters.</p>
 
             <p>Twee artiesten kwamen langs op een donderdag in Oktober om hun passie te delen. Hoe leuk was dat. Een onvergetelijk moment voor de leerlingen, voor altijd vastgelegd in een graffiti kunstwerk in de school.</p>
+
+            <p>Lees een artikel over <a href="https://medium.com/kidstart/pilootproject-kidstart-hoe-krijgen-we-vrijwilligers-voor-de-klas-cbc86d1491e3">hoe dat matchmakeproces verliep</a>.</p>
+            
         </div>
         <div class="col-md-6">
-           <div class="embed-responsive embed-responsive-16by9 mt-4 mb-5">
+         <div class="embed-responsive embed-responsive-16by9 mt-4 mb-5">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uBxeyq14uMk?rel=0" allowfullscreen=""></iframe>
         </div>
     </div>
 
 </section>
 
+<hr class="my-5 pb-3">
 
 <section class="videos container pb-5">
 
- <h2>Paviljoen traject in beeld</h2>
+   <h2 class="text-center">Paviljoen traject in beeld</h2>
 
- <div class="row">
-     @foreach($youtubeFeed as $youtubePost)
+   <div class="row">
+       @foreach($youtubeFeed as $youtubePost)
 
-     @if ($enclosure = $youtubePost->get_enclosure())
+       @if ($enclosure = $youtubePost->get_enclosure())
 
-     <div class="col-sm-4 col-md-3 col-lg-3 col-xl-3 video">
+       <div class="col-sm-4 col-md-3 col-lg-3 col-xl-3 video">
 
         <a href="{{ $youtubePost->get_permalink() }}"> <div class="thumbnail" style="background-image: url({{ $enclosure->get_thumbnail() }})"> </div></a>
 
@@ -144,7 +203,7 @@
         </div>
         <div class="col-md-6">
 
-            <h2>Updates</h2>
+            <h2 class="mb-5">Updates</h2>
 
             @foreach($mediumFeed as $mediumPost)
 
@@ -174,6 +233,9 @@
             <div class="col-md-8 col-lg-4">
                 <h2>Team Kidstart</h2>
                 <p class="mb-5">Kidstart ontstond op <a href="http://www.hackbelgium.be" target="_blank">Hack Belgium</a>, de grootste hackathon van België, waar ons project laureaat was. Oprichters Ilse en Pieter-Jan bedachten er het project. Frederik kwam erbij nadat hij <a href="https://www.youtube.com/watch?v=4Ql0QwyUx5g&feature=youtu.be&t=25" target="_blank">hun pitch</a> zag op Hack Belgium.</p>
+
+                <h4>Contact</h4>
+                <p><a href="mailto:frederik@kidstart.be">frederik@kidstart.be</a></p>
             </div>
 
             <div class="col-lg-8">
@@ -210,12 +272,12 @@
             <img src="/img/homepage/logocircle.png" alt="" class="img-fluid img-logocircle">
         </div>
         <div class="col-md-6">
-           <h2>Blijf op de hoogte</h2>
-           <p class="subtitle">Weet als eerste wanneer we in nieuwe scholen lanceren</p>
+         <h2>Blijf op de hoogte</h2>
+         <p class="subtitle">Weet als eerste wanneer we in nieuwe scholen lanceren</p>
 
-       </div>
+     </div>
 
-   </div>
+ </div>
 
 </section>
 
