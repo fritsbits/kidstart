@@ -254,7 +254,7 @@
                 <div class="col-sm-6 col-lg-4 offset-lg-1 team-member">
                     <img src="/img/homepage/profile-fien.jpg" alt="Fien Sambaer" class="img-fluid">
                     <h4><a href="https://www.linkedin.com/in/fien-sambaer-ab567174" target="_blank">Fien Sambaer</a></h4>
-                    <p class="team-member-function">Fien heeft jaren ervaring als onderwijsondersteuner en als brede schoolcoördinator in Brussel.</p>
+                    <p class="team-member-function">Fien is een visueel systeembegeleider met jaren ervaring in onderwijs in Brussel.</p>
                 </div>
                 <div class="col-sm-6 col-lg-4 offset-lg-2 team-member">
                     <img src="/img/homepage/profile-frederik.jpg" alt="Frederik Vincx" class="img-fluid">
